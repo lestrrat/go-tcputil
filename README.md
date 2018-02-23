@@ -3,6 +3,12 @@ go-tcputil
 
 Some Utilities To Help Your TCP-Related testing
 
+# WARNING
+
+This repository has been moved to [github.com/lestrrat-go/tcputil](https://github.com/lestrrat-go/tcputil). This repository exists so that libraries pointing to this URL will keep functioning, but this repository will NOT be updated in the future. Please use the new import path.A
+
+# SYNOPSIS
+
 ```go
   p, err := EmptyPort()
   if err != nil {
